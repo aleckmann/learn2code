@@ -52,7 +52,7 @@ pear = fruits[2]
 ## sequentially and check each and every one.
 
 for i in range(len(fruits)):   ## here, we said "for every integer in the range equal to the length of the fruits list"
-  print(fruits[i]))             ## and here, we printed out (to the console) the fruit in that spot in the list
+  print(fruits[i])             ## and here, we printed out (to the console) the fruit in that spot in the list
   
 ## you can think of the range as its own array
 ## [ 0, 1, 2, 3 ] if you say range(4), it counts from 0 to 3. range(10) is 0 to 9. range(n) is 0 to n-1.
@@ -61,14 +61,14 @@ for i in range(len(fruits)):   ## here, we said "for every integer in the range 
 ## that's why when we asked for the i'th element in fruits, it printed them in sequential order.
 
 ## in python, you can also iterate over array items with a shorthand syntax, like this
-
+array = ["horse","bologna","bees","world peace"]
 for item in array:
   print(item)
   
 ## this is almost the same as what we did above, but this time the indexing is implicit. there's a lot of
 ## complicated stuff behind this, but for right now, just know that it's convenient.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ## already, we almost have enough knowledge to build something a little interactive.
 ## For example, we could set up a fruit store program. Let's say we're running
@@ -84,7 +84,7 @@ print("Welcome to my Fruit Stand")
 print("Want to buy some fruit?")
 
 ## Here, we take the answer.
-answer = input(">\n") # input is a function, like print or len, that asks for the user input from the console
+answer = input(">") # input is a function, like print or len, that asks for the user input from the console
 
 ## once the user presses Enter, the input will be submitted and stored in the variable "answer"
 ## now, since we want to sell fruit if the answer yes or say goodbye if no, we have to create an if/else block
@@ -106,30 +106,3 @@ else:                                ## literally any input other than "yes"
 ## system exit be executed. These are known as conditional scopes.
 
 ## That's all for now! Study these basics and next time we'll pick up right here where we left off.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
